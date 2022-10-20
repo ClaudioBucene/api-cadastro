@@ -1,0 +1,13 @@
+API NodeJs + Express + Mongo
+ESTRUTURA E CADASTRO
+
+//Cria package.json vazio para podermos instalar as nossas dependencias
+npm init -y 
+
+//rotas e requests http
+npm i express 
+
+//Para o Node entender parametros passados em urls e 
+entender requisicoes de info em Json 
+npm i body-parser
+
