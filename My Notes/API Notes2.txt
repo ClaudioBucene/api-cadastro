@@ -1,0 +1,11 @@
+Autenticacao -> API REST + Nodejs
+
+1. Ir ao Controller fazer rota de Autenticacao
+
+JWT
+Qdo o user faz login recebe token, que sera verificado
+sempre que o user fizer uma requisicao  
+
+npm i jsonwebtoken
+
+Gerar o valor de config/auth.json secret usando md5

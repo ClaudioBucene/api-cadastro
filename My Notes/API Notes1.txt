@@ -1,0 +1,26 @@
+API NodeJs + Express + Mongo
+ESTRUTURA E CADASTRO
+
+//Cria package.json vazio para podermos instalar as nossas dependencias
+npm init -y 
+
+//rotas e requests http
+npm i express 
+
+//Para o Node entender parametros passados em urls e 
+entender requisicoes de info em Json 
+npm i body-parser
+
+npm i mongoose // Para o node comunicar-se com MongoDB
+
+//biblioteca de hash para encriptar a senha
+npm i bcryptjs
+
+Steps
+0. Instalar todas dependencias e criar todos pastas/files;
+1. Index.js (Ja da pra fazer um get e ver o node a correr)
+2. Mongoose em database/index.js conexao com MongoDb
+3. Model -> Schema usa o mongoose
+4. Definir rotas (Usa express, router, model) recebe a app
+5. Add bcrypt no model
+

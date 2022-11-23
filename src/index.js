@@ -8,7 +8,8 @@ const app = express();
 app.use(bodyParser.json()); // requisicoes json
 app.use(bodyParser.urlencoded({extended: false})); //parametros_url
 
-//Repassar a app para o authController 
+//Repassar a app para o authController (later)
 require('./controllers/authController')(app);
+require('./controllers/projectController')(app);
 
 app.listen(3000); //Ouvir a app na porta 3000
